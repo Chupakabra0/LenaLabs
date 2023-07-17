@@ -4,9 +4,9 @@
 
 class Application {
 public:
-	void registerCommand(std::unique_ptr<ICommand> command);
-	int execute(int argc, char* argv[]);
+    void registerCommand(std::unique_ptr<ICommand> command);
+    int execute(int argc, char* argv[]);
 
 private:
-	//TODO
+    //TODO
 };

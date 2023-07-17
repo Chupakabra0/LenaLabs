@@ -4,23 +4,23 @@
 #include <string>
 
 struct Vec {
-	double x, y, z;
+    double x, y, z;
 };
 
 class Triangle {
 public:
-	//TODO
+    //TODO
 private:
-	Vec A, B, C;
-	Vec normal;
+    Vec A, B, C;
+    Vec normal;
 };
 
 using TriangleSoup = std::vector<Triangle>;
 
 class STLParser {
 public:
-	TriangleSoup read(const std::string& filename);
-	void write(const TriangleSoup& triangleSoup, const std::string& filename);
+    TriangleSoup read(const std::string& filename);
+    void write(const TriangleSoup& triangleSoup, const std::string& filename);
 private:
-	//TODO
+    //TODO
 };
